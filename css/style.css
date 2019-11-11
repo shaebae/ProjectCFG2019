@@ -1,2 +1,12 @@
 body{
+  background-color: grey;
+
+
+}
+  .jumbotron {
+    background-image: url('../images/veggies.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+
 }
