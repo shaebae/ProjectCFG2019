@@ -1,9 +1,8 @@
 body{
-  background-color: white;
-
-
+  background-color: #C0C0C0;
 }
- div.section{
+
+div.section{
  background: url(images/picnz.jpg) no-repeat center center fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
@@ -11,14 +10,22 @@ body{
  background-size: cover;
 }
 
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
 h1 {
-  font-size: 60px;
-  color: white;
-  text-align: center;
-  font-family: fantasy;
-  }
+   position: absolute;
+   top: 120px;
+   left: 0;
+   width: 100%;
+   text-align: center;
+   font-size: 70px;
+   color: white;
+   vertical-align: middle;
 
-
+}
 
 div.form-container{
   background-color: #e8fbff;
