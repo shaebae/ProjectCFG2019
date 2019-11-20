@@ -11,14 +11,18 @@ body{
  background-size: cover;
 }
 
+
+.image { 
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
 h1 {
-  font-size: 60px;
-  color: black;
-  text-align: center;
-  font-family: monospace;
-  }
-
-
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+}
 
 div.form-container{
   background-color: #e8fbff;
