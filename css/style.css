@@ -3,10 +3,11 @@ body{
 
 
 }
-  .jumbotron {
-    background-image: url('../images/picnz.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 400px;
 
+
+#bootstrap-override.bg-image-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bloom-blooming-blossom.jpg);
+    background-size: cover;
 }
