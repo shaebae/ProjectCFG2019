@@ -24,6 +24,7 @@ h1 {
    font-size: 70px;
    color: white;
    vertical-align: middle;
+   font-family: cursive;
 }
 h2 {
    position: absolute;
@@ -31,7 +32,7 @@ h2 {
    left: 0;
    width: 100%;
    font-style: italic;
-   font-family: fantasy;
+   font-family: cursive;
    text-align: center;
    font-size: 40px;
    color: white;
