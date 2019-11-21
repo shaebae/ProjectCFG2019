@@ -59,9 +59,10 @@ div.form-container{
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: #E0FFFF;
+   background: rgba(0, 0, 0, 0.5);
    color: silver;
    text-align: center;
+   padding:40px;
 }
 
 /* Style the search box inside the navigation bar */
