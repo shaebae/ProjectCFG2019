@@ -17,14 +17,25 @@ div.section{
 
 h1 {
    position: absolute;
-   top: 120px;
+   top: 110px;
    left: 0;
    width: 100%;
    text-align: center;
    font-size: 70px;
    color: white;
    vertical-align: middle;
-
+}
+h2 {
+   position: absolute;
+   top: 620px;
+   left: 0;
+   width: 100%;
+   font-style: italic;
+   font-family: fantasy;
+   text-align: center;
+   font-size: 40px;
+   color: white;
+   vertical-align: middle;
 }
 
 a.href {
@@ -41,4 +52,24 @@ a.href {
 
 div.form-container{
   background-color: #e8fbff;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #E0FFFF;
+   color: silver;
+   text-align: center;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
 }
