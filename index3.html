@@ -13,7 +13,8 @@
   <title>Inquiry Form</title>
 </head>
 
-<body>
+<body class="fade-in">
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="./index.html"> Home </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,38 +34,49 @@
   </div>
 </nav>
 
-<h3>Find out more, drop us an email below!</h3>
-
-<div class="form-container">
-  <div class="row">
-    <div class="col-2">
-
-    </div>
-    <div class="col-8">
-<form>
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Name</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jane Doe">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Inquiry</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-  </div>
-</form>
-    </div>
-    <div class="col-2">
-    </div>
-  </div>
-</div>
 
 
+    <a id="home" href="index.html">
+      <span class="tooltip" data-title="Home">
+        <img class="home" src="img_contact/home.png">
+      </span>
+    </a>
 
-</body>
+    <form class="form floating-labels">
+      <div class="pt1">
+        <label class="label"><h3>Find out more, drop us an email below!</h3></label>
 
+        <div class="icon">
+          <label class="label" for="name">Name</label>
+          <input class="user" type="text" name="name" id="name" placeholder='Jane Doe'>
+        </div>
+
+        <div class="icon">
+          <label class="label" for="email">Email Address</label>
+          <input class="email error" type="email" name="email" id="email" required>
+        </div>
+
+        <div class="icon">
+          <label class="label" for="textarea">Inquiry</label>
+          <textarea class="message" name="textarea" id="textarea" required></textarea>
+        </div>
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">I confirm this is my email address</label>
+        </div>
+      </div>
+
+      <div>
+        <input type="submit" value="Send Message">
+      </div>
+
+    </form>
+
+    <!--JS file-->
+      <script src="script_contact.js"></script>
+    <!--end-->
+
+  </body>
 
 <!-- Sandwich from: © Kosoff | <a href="http://www.dreamstime.com/">Dreamstime Stock Photos</a> & <a href="http://www.stockfreeimages.com/">Stock Free Images</a> -->
 </html>
