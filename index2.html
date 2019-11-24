@@ -8,11 +8,21 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <!--This is where we link our stylesheet-->
-  <link rel="stylesheet" type="text/css" href="css/style2.css">
+<script language="JavaScript" type="text/javascript" src="scripts/jquery.js"></script>
+<script language="JavaScript" type="text/javascript" src="scripts/bootstrap.min.js"></script>
+  <!-- Carousel -->
+<script language="JavaScript" type="text/javascript">
+      $(document).ready(function(){
+      $('.carousel').carousel({
+        interval: false
+      })
+        });
+      </script>
+<!--This is where we link our stylesheet-->
+<link rel="stylesheet" type="text/css" href="css/style2.css">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Aotearoa/Attractions</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Aotearoa/Attractions</title>
 </head>
 
 <body class='fade-in'>
@@ -36,7 +46,7 @@
 </nav>
 
     <h1>Top 5 Attractions</h1>
-
+<!--beaches jumbotron-->
 <div class="container">
   <div class="row">
     <div class="col-6">
@@ -49,7 +59,8 @@
     <div class="col-6">
       <div class="container">
       <div class="jumbotron">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<!--beaches carousel-->
+        <div id="carouselbeachesControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="images/cathedralcove.jpg" class="d-block w-100" alt="...">
@@ -61,11 +72,11 @@
               <img src="images/pihabeach.jpg" class="d-block w-100" alt="...">
             </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <a class="carousel-control-prev" href="#carouselbeachesControls" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <a class="carousel-control-next" href="#carouselbeachesControls" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
@@ -77,21 +88,11 @@
     </div>
   </div>
 </div>
-<!--4. Lakes below -->
+<!--4. Lakes carousel -->
 <div class="container">
   <div class="row">
     <div class="col-6">
       <div class="jumbotron">
-        <script language="JavaScript" type="text/javascript" src="scripts/jquery.js"></script>
-        <script language="JavaScript" type="text/javascript" src="scripts/bootstrap.min.js"></script>
-  <!-- Carousel -->
-    <script language="JavaScript" type="text/javascript">
-      $(document).ready(function(){
-      $('.carousel').carousel({
-        interval: false
-      })
-        });
-      </script>
       <div id="carousellakesControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -114,15 +115,15 @@
           </a>
         </div>
       </div>
-<!--completes Class col 6 lakes div-->
+    <!--completes Class col 6 lakes div-->
     </div>
-
+  <!--lakes jumbotron details-->
   <div class="col-6">
     <div class="container">
       <div class="jumbotron">
         <h1 class="display-4">4. Lakes</h1>
-        <p class="lead"> New Zealand have some of the most breath-taking lakes which can be enjoyed all year round and are often used in hollywood movies.</p>
-        <a class="btn btn-primary btn-lg" href="https://edition.cnn.com/travel/article/new-zealand-great-beaches/index.html" role="button">Learn more</a>
+        <p class="lead"> New Zealand has some of the most breath-taking lakes which can be enjoyed all year round and are often used in hollywood movies.</p>
+        <a class="btn btn-primary btn-lg" href="https://theculturetrip.com/pacific/new-zealand/articles/10-new-zealand-lakes-that-will-take-your-breath-away/" role="button">Learn more</a>
 
       <!--completes jumbotron div-->
     </div>
@@ -135,16 +136,17 @@
 </div>
 </div>
 
-<!--Walks-->
+<!--3. Walks jumbotron details-->
 <div class="container">
   <div class="row">
     <div class="col-6">
       <div class="jumbotron">
         <h1 class="display-4">3. Walks</h1>
-        <p class="lead">There so many nature walks avaialble when you travel to New Zealand, including the tongariro crossing which is one of the best day walks in the world.</p>
-        <a class="btn btn-primary btn-lg" href="https://edition.cnn.com/travel/article/new-zealand-great-beaches/index.html" role="button">Learn more</a>
+        <p class="lead">There so many nature walks avaialble when you travel to New Zealand, including the Tongariro Crossing which is one of the best day walks in the world.</p>
+        <a class="btn btn-primary btn-lg" href="https://www.backpackerguide.nz/the-9-great-walks-of-new-zealand/" role="button">Learn more</a>
       </div>
     </div>
+    <!--Walks Carousel-->
     <div class="col-6">
       <div class="container">
       <div class="jumbotron">
@@ -177,21 +179,12 @@
   </div>
 </div>
 
-<!--4. Art below -->
+<!--2. Art  -->
 <div class="container">
   <div class="row">
+  <!-- ART Carousel -->
     <div class="col-6">
       <div class="jumbotron">
-        <script language="JavaScript" type="text/javascript" src="scripts/jquery.js"></script>
-        <script language="JavaScript" type="text/javascript" src="scripts/bootstrap.min.js"></script>
-  <!-- Carousel -->
-    <script language="JavaScript" type="text/javascript">
-      $(document).ready(function(){
-      $('.carousel').carousel({
-        interval: false
-      })
-        });
-      </script>
       <div id="carouselartControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -214,15 +207,16 @@
           </a>
         </div>
       </div>
-<!--completes Class col 6 lakes div-->
+<!--completes Class col 6 ART div-->
     </div>
+ <!--ART jumbotron details-->
 
   <div class="col-6">
     <div class="container">
       <div class="jumbotron">
         <h1 class="display-4">2. Art</h1>
         <p class="lead"> New Zealand has some of the most sophisticated art in the world which draws on the nations love of food and beverages.</p>
-        <a class="btn btn-primary btn-lg" href="https://edition.cnn.com/travel/article/new-zealand-great-beaches/index.html" role="button">Learn more</a>
+        <a class="btn btn-primary btn-lg" href="https://en.wikipedia.org/wiki/List_of_New_Zealand%27s_big_things" role="button">Learn more</a>
 
       <!--completes jumbotron div-->
     </div>
@@ -235,16 +229,18 @@
 </div>
 </div>
 
-<!--Buildings-->
+<!--1. Buildings-->
 <div class="container">
   <div class="row">
+  <!-- Buildings Jumbotron Details -->
     <div class="col-6">
       <div class="jumbotron">
         <h1 class="display-4">1. Buildings</h1>
-        <p class="lead">New Zealand may not be known for their beautiful buildings, but the country has some of the most unique and beautiful buildings around.</p>
-        <a class="btn btn-primary btn-lg" href="https://edition.cnn.com/travel/article/new-zealand-great-beaches/index.html" role="button">Learn more</a>
+        <p class="lead">Aotearoa may not be known for their beautiful buildings, however the country has some of the most unique and beautiful buildings around.</p>
+        <a class="btn btn-primary btn-lg" href="https://www.atlasobscura.com/places/big-dog-and-sheep" role="button">Learn more</a>
       </div>
     </div>
+  <!-- Buildings Carousel -->
     <div class="col-6">
       <div class="container">
       <div class="jumbotron">
