@@ -27,3 +27,13 @@ h1 {
 div.form-container{
   background-color: #e8fbff;
 }
+
+
+.jumbotron
+{
+padding-top: 22px;
+padding-bottom: 22px;
+background-size: cover;
+height:300px;
+
+ }
