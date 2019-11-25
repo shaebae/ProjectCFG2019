@@ -3,6 +3,28 @@ body{
 
 
 }
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background: rgba(0, 0, 0, 0.5);
+   color: silver;
+   text-align: center;
+   padding:40px;
+}
+
  div.section{
  background: url(images/picnz.jpg) no-repeat center center fixed;
  -webkit-background-size: cover;
